@@ -4,7 +4,6 @@ using NETCore.DBClient;
 using NETCore.DBClient.PostgreSQLTest.Db;
 using NETCore.DBClient.PostgreSQLTest.DbModels;
 using Newtonsoft.Json;
-using Npgsql;
 using System.Data;
 
 namespace Program
@@ -32,6 +31,6 @@ namespace Program
             null,
             commandType: CommandType.Text);
             Console.WriteLine($"Result: {JsonConvert.SerializeObject(res)}");
+        }
     }
 }
-}   

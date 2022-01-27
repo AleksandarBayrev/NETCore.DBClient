@@ -1,10 +1,10 @@
-﻿using NETCore.DBClient.Interfaces.Handlers;
-using NUnit.Framework;
-using Dapper;
-using System.Data;
-using System.Threading.Tasks;
+﻿using Dapper;
+using NETCore.DBClient.Interfaces.Handlers;
 using Newtonsoft.Json;
+using NUnit.Framework;
+using System.Data;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace NETCore.DBClient.Tests.Handlers
 {

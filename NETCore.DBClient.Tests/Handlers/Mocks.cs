@@ -1,10 +1,8 @@
 ﻿using Dapper;
 using Moq;
 using Moq.Dapper;
-using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.Common;
 using System.Linq;
 
 namespace NETCore.DBClient.Tests.Handlers
@@ -24,7 +22,7 @@ namespace NETCore.DBClient.Tests.Handlers
             {
                 var mock = new Mock<IDbConnection>();
                 mock.CallBase = false;
-                mock.SetupDapperAsync(x => 
+                mock.SetupDapperAsync(x =>
                     x.QueryAsync<int>(
                         It.IsAny<string>(),
                         It.IsAny<DynamicParameters>(),
