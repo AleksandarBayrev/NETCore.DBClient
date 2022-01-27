@@ -21,16 +21,19 @@ namespace Program
                 SearchPath = "test",
                 Database = "pcbuilder"
             };
-            var connection = Connection.GetConnection(connectionConfiguration);
-            connection.Open();
-            var queryHandler = new QueryHandler();
 
-            var res = await queryHandler.ExecuteQuery<HelloWorldModel>(
-            connection,
-            "SELECT * FROM test.list",
-            null,
-            commandType: CommandType.Text);
-            Console.WriteLine($"Result: {JsonConvert.SerializeObject(res)}");
+            using (var connection = Connection.GetConnection(connectionConfiguration))
+            {
+                connection.Open();
+                var queryHandler = new QueryHandler();
+
+                var res = await queryHandler.ExecuteQuery<HelloWorldModel>(
+                connection,
+                "SELECT * FROM test.list",
+                null,
+                commandType: CommandType.Text);
+                Console.WriteLine($"Result: {JsonConvert.SerializeObject(res)}");
+            }
         }
     }
 }
