@@ -1,12 +1,12 @@
 ﻿using Dapper;
-using NETCore.DBClient.Interfaces.Handlers;
+using AB.NETCore.DBClient.Interfaces.Handlers;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NETCore.DBClient.Tests.Handlers
+namespace AB.NETCore.DBClient.Tests.Handlers
 {
     [TestFixture]
     internal class QueryHandlerTests

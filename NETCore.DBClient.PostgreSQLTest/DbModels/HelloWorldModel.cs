@@ -1,4 +1,4 @@
-﻿namespace NETCore.DBClient.PostgreSQLTest.DbModels
+﻿namespace AB.NETCore.DBClient.PostgreSQLTest.DbModels
 {
     internal class HelloWorldModel
     {

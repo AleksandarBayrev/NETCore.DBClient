@@ -1,6 +1,6 @@
 ﻿using Npgsql;
 
-namespace NETCore.DBClient.PostgreSQLTest.Db
+namespace AB.NETCore.DBClient.PostgreSQLTest.Db
 {
     internal static class Connection
     {

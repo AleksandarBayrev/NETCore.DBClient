@@ -1,4 +1,4 @@
-﻿namespace NETCore.DBClient.PostgreSQLTest.Db
+﻿namespace AB.NETCore.DBClient.PostgreSQLTest.Db
 {
     public class ConnectionConfiguration
     {

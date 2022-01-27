@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
-namespace NETCore.DBClient.Tests.Handlers
+namespace AB.NETCore.DBClient.Tests.Handlers
 {
     internal static class Mocks
     {

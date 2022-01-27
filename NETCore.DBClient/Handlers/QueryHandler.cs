@@ -1,8 +1,8 @@
 ﻿using Dapper;
-using NETCore.DBClient.Interfaces.Handlers;
+using AB.NETCore.DBClient.Interfaces.Handlers;
 using System.Data;
 
-namespace NETCore.DBClient
+namespace AB.NETCore.DBClient
 {
     public class QueryHandler : IQueryHandler
     {
