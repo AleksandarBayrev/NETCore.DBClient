@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using AB.NETCore.DBClient;
 using AB.NETCore.DBClient.PostgreSQLTest.Db;
 using AB.NETCore.DBClient.PostgreSQLTest.DbModels;
 using Newtonsoft.Json;
