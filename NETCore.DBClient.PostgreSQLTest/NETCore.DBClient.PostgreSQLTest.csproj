@@ -5,6 +5,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<RootNamespace>AB.NETCore.DBClient.PostgreSQLTest</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
